@@ -2,7 +2,7 @@
 
 primaryColor = "#d33682"
 
-backgroundColor = black
+backgroundColor = "black"
 
 secondaryBackgroundColor = "#586e75"
 
