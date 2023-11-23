@@ -61,8 +61,8 @@ if selected == "Data Entry":
         with st.expander("Expenses"):
             for expense in expenses:
                 st.number_input(f"{expense}:", min_value=0, format="%i", step=10, key=expense)
-        with st.expander("Comment"):
-            comment = st.text_area("",placeholder="Write comment here...")
+        with st.expander("Respondent Details"):
+            comment = st.text_area("",placeholder="Write your name with a short description here...")
 
         "---"
 
@@ -96,7 +96,7 @@ if selected == "Data Visualization":
             col1.metric("Total Income",f"{total_incomes} {currency}")
             col2.metric("Total Expense", f"{total_expenses} {currency}")
             col3.metric("Remaining Budget", f"{remaining_budget} {currency}")
-            st.text(f"Comment: {comment}")
+            st.text(f"Details: {comment}")
 
 # ----- Create sankey chart -----
             label = list(incomes.keys())+["Total Income"]+list(expenses.keys())
