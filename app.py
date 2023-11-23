@@ -9,7 +9,7 @@ from datetime import datetime
 incomes = ['salary','part time work','other incomes']
 expenses = ['rent','transport','groceries','other expenses']
 currency = "INR"
-page_icon = ":money_bag:"
+page_icon = ":money_mouth_face:"
 page_title = "Income and Expense Tracker"
 layout = "centered"
 
