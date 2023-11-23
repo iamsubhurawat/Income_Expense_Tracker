@@ -6,8 +6,8 @@ import calendar
 from datetime import datetime
 
 # ----- Settings -----
-incomes = ['salary','blog','other incomes']
-expenses = ['rent','car','groceries','other expenses']
+incomes = ['salary','part time work','other incomes']
+expenses = ['rent','transport','groceries','other expenses']
 currency = "INR"
 page_icon = ":money_bag:"
 page_title = "Income and Expense Tracker"
